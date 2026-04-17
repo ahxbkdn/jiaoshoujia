@@ -1,0 +1,25 @@
+{
+  "name": "@zt-cli/init",
+  "version": "0.0.0",
+  "description": "Init command for zt-cli",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zt-cli/command": "^0.0.0",
+    "@zt-cli/log": "^0.0.0",
+    "@zt-cli/package": "^0.0.0",
+    "axios": "^1.7.9",
+    "ejs": "^3.1.10",
+    "fs-extra": "^11.2.0",
+    "glob": "^8.1.0",
+    "inquirer": "^8.2.6",
+    "ora": "^5.4.1",
+    "semver": "^7.7.4",
+    "user-home": "^2.0.0"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "@zt-cli/core",
+  "version": "0.0.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "han <2721890836@qq.com>",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com"
+  },
+  "bin": {
+    "zt-cli": "bin/index.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@zt-cli/build": "^0.0.0",
+    "@zt-cli/init": "^0.0.0",
+    "@zt-cli/log": "^0.0.0",
+    "colors": "^1.4.0",
+    "commander": "^12.1.0",
+    "dotenv": "^17.4.1",
+    "import-local": "^3.2.0",
+    "minimist": "^1.2.8",
+    "npmlog": "^7.0.1",
+    "path-exists": "^4.0.0",
+    "semver": "^7.7.4",
+    "user-home": "^2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

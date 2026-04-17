@@ -1,0 +1,16 @@
+{
+  "name": "@zt-cli/build",
+  "version": "0.0.0",
+  "description": "Build command for zt-cli",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zt-cli/command": "^0.0.0",
+    "@zt-cli/log": "^0.0.0"
+  }
+}
